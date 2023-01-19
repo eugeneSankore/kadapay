@@ -5,12 +5,12 @@
     <div class="column col1">
 
       <div class="topDescription">
-        <a class="formatImageLogo" href="https://kada.ng" target="_blank">
+        <a class="formatImageLogo img_resizer" href="https://kada.ng" target="_blank">
 
           <img class="kadaLogoHomePage" :src="kadaLogo" alt="logo">
 
         </a>
-        <div class="infoCompany">
+        <div class="infoCompany format___text__info">
           Kada is a product of WealthTech. The makers of Wealth.ng </div>
 
         <div class="copyRight">
@@ -19,7 +19,7 @@
 
       </div>
 
-      <div class='divSocialMedia'>
+      <div class='divSocialMedia format__imageFile'>
         <a class='child inline-block-child' target="_blank" href="https://web.facebook.com/profile.php?id=100069224173525">
 <img class="socialMedia"  src="https://dp76jxyzopnbo.cloudfront.net/kada/images/1384005.png" alt="">
         </a>
@@ -37,7 +37,7 @@
       </div>
 
     </div>
-    <div class="column col2">
+    <div class="column col2 formatLargest__screensoize">
 
 
         <a class="row" href="https://kada.ng/How-it-works.html" target="_blank">How it works<a/>
@@ -50,7 +50,7 @@
 
     </div>
 
-    <div class="column col3">
+    <div class="column col3 formatcol_info_3">
 
           <a class="row" href="https://kada.ng/index.html" target="_blank"
         >Register Your School</a>
@@ -62,13 +62,13 @@
 
 
     </div>
-    <div class="column col4">
+    <div class="column col4 formatColumn___four">
       
-      <a class="positionIosLogo" target="_blank" href="https://apps.apple.com/ng/app/kada-alumni/id1528746717">
+      <a class="positionIosLogo format_image_ios" target="_blank" href="https://apps.apple.com/ng/app/kada-alumni/id1528746717">
 <!--        <img src="./src/assets/lotticeApple.gif" alt="w">-->
-        <img class="imageLogoApple" :src=appleLogo alt="">
+        <img class="imageLogoApple format_apple_img" :src=appleLogo alt="">
       </a>
-      <a class="positionAndriodLogo" target="_blank" href="https://play.google.com/store/apps/details?id=ng.wealthtech.kada">
+      <a class="positionAndriodLogo format_andriod_img" target="_blank" href="https://play.google.com/store/apps/details?id=ng.wealthtech.kada">
         <!--        <img src="./src/assets/lotticeApple.gif" alt="w">-->
         <img  class="imageLogoAndroid" :src=playStoreLogo alt="">
       </a>
@@ -105,6 +105,7 @@ export default {
 
 }
 
+
 .positionIosLogo{
   /*position: absolute;*/
 
@@ -112,6 +113,12 @@ export default {
   cursor: pointer;
 
 }
+
+a.positionIosLogo.format_image_ios {
+  margin-bottom: 0.9rem;
+  cursor: pointer;
+}
+
 
 .col4{
   display: flex;
@@ -299,16 +306,18 @@ display: none;
 @media screen and (min-width: 899px) {
 
 
-  .col4[data-v-d9ddb592] {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /* width: 35rem; */
-    align-items: flex-start;
-    /* flex-wrap: nowrap; */
-    /* position: relative;
 
-     */
+
+  .column.col4.formatColumn___four {
+    display: flex;
+    justify-content: flex-start;
+    width: 24rem;
+    width: 25%;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    /* position: relative; */
+    padding-top: 5.6rem;
+    flex-direction: row;
   }
 
  .theFooter.largescale__footerFormat {
@@ -355,33 +364,33 @@ display: none;
   }
 
 
-  .col4[data-v-d9ddb592][data-v-d9ddb592][data-v-d9ddb592][data-v-d9ddb592] {
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    width: 24rem;
-    width: 16%;
-    align-items: flex-start;
-    /* flex-wrap: nowrap; */
-    /* position: relative; */
-    padding-top: 5.6rem;
-  }
+  /*.col4[data-v-d9ddb592][data-v-d9ddb592][data-v-d9ddb592][data-v-d9ddb592] {*/
+  /*  display: flex;*/
+  /*  flex-direction: column;*/
+  /*  justify-content: right;*/
+  /*  width: 24rem;*/
+  /*  width: 16%;*/
+  /*  align-items: flex-start;*/
+  /*  !* flex-wrap: nowrap; *!*/
+  /*  !* position: relative; *!*/
+  /*  padding-top: 5.6rem;*/
+  /*}*/
 
   .column.col1 {
     width: 29%;
     padding-top: 2rem
   }
 
-  .column.col2[data-v-d9ddb592] {
+  /*.column.col2[data-v-d9ddb592] {*/
+  /*  padding-top: 6.5rem;*/
+  /*  width: 16%;*/
+  /*}*/
+
+  .column.col2.formatLargest__screensoize {
     padding-top: 6.5rem;
     width: 16%;
   }
 
-  .column.col3[data-v-d9ddb592][data-v-d9ddb592] {
-    padding-top: 6.5rem;
-    width: 14%;
-    padding-right: 2rem;
-  }
 
   .positionAndriodLogo[data-v-d9ddb592] {
     /* position: absolute; */
@@ -389,7 +398,7 @@ display: none;
     margin-left: 2.5%;
   }
 
-  .imageLogoApple[data-v-d9ddb592] {
+  img.imageLogoApple.format_apple_img {
     height: 50px;
     width: 131px;
   }
@@ -409,8 +418,42 @@ display: none;
     margin-left: -5.5%;
   }
 
-  .infoCompany[data-v-d9ddb592][data-v-d9ddb592] {
-    width: 26em;
+  /*.infoCompany[data-v-d9ddb592][data-v-d9ddb592] {*/
+  /*  width: 26em;*/
+  /*  color: hsl(0deg 0% 100%);*/
+  /*  font-family: Inter;*/
+  /*  font-weight: 500;*/
+  /*  !* letter-spacing: 0; *!*/
+  /*  line-height: 17px;*/
+  /*  font-size: 12px;*/
+  /*  font-weight: 500;*/
+  /*  text-align: left;*/
+  /*  padding-top: 1.8rem;*/
+  /*  width: 81%;*/
+  /*}*/
+
+  .divSocialMedia[data-v-d9ddb592] {
+    /* padding: 1rem; */
+    width: 16rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-top: 4.5rem;
+  }
+
+  .divSocialMedia.format__imageFile {
+    padding: 0rem;
+    width: 16rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-top: 4.5rem;
+  }
+
+
+  .infoCompany.format___text__info {
     color: hsl(0deg 0% 100%);
     font-family: Inter;
     font-weight: 500;
@@ -423,15 +466,12 @@ display: none;
     width: 81%;
   }
 
-  .divSocialMedia[data-v-d9ddb592] {
-    /* padding: 1rem; */
-    width: 16rem;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding-top: 4.5rem;
+  .column.col3.formatcol_info_3 {
+    padding-top: 6.5rem;
+    width: 14%;
+    padding-right: 2rem;
   }
+
 
 
 
@@ -439,7 +479,25 @@ display: none;
 
 @media screen and (min-width: 999px) {
 
-  .col4[data-v-d9ddb592][data-v-d9ddb592][data-v-d9ddb592][data-v-d9ddb592][data-v-d9ddb592] {
+
+
+
+
+
+
+
+  .theFooter[data-v-d9ddb592] {
+    /*background-color: #1abc9c;*/
+  }
+
+  a.positionAndriodLogo.format_andriod_img[data-v-d9ddb592] {
+    cursor: pointer;
+    margin-left: 1.5%;
+  }
+
+
+
+  .column.col4.formatColumn___four {
     display: flex;
     justify-content: flex-start;
     width: 24rem;
@@ -451,15 +509,11 @@ display: none;
     flex-direction: row;
   }
 
-  .theFooter[data-v-d9ddb592] {
-    /*background-color: #1abc9c;*/
-  }
-
-  .positionAndriodLogo[data-v-d9ddb592][data-v-d9ddb592][data-v-d9ddb592] {
-    /* position: absolute; */
+  a.positionAndriodLogo.format_andriod_img {
     cursor: pointer;
     margin-left: 1.5%;
   }
+
 
 }
 
@@ -477,6 +531,18 @@ display: none;
   margin-bottom: 0.9rem;
   cursor: pointer;
 }
+
+
+a.formatImageLogo.img_resizer {
+  text-align: left;
+  /* padding-top: 4rem; */
+  padding-bottom: 0.7rem;
+  /* padding-left: 2rem; */
+  display: table-row-group;
+  align-content: flex-start;
+}
+
+
 
 
 </style>
