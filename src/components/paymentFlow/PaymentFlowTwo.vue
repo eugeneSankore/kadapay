@@ -653,12 +653,12 @@ input#expiryDate {
   margin-left: 1rem;
 }
 
-.paymentFormBodyCardAmount.cvvborderPositon[data-v-5d6e0923] {
+.paymentFormBodyCardAmount.cvvborderPositon{
   margin-left: 1rem;
   height: 100%;
 }
 
-input#securityCode[data-v-5d6e0923] {
+input#securityCode{
   width: 159px;
   height: 2.5rem;
   margin-left: 0rem;
@@ -694,7 +694,7 @@ element.style {
   padding-top: 0.9rem;
 }
 
-.toggle-label[data-v-5d6e0923] {
+.toggle-label{
   margin-left: -1px;
   position: relative;
   top: 2px;
@@ -703,7 +703,7 @@ element.style {
   font-size: 14px;
 }
 
-input#amountDonation[data-v-4506583d] {
+input#amountDonation {
   width: 20.9rem;
   /* position: relative; */
 }
@@ -714,7 +714,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-input#securityCode[data-v-5d6e0923][data-v-5d6e0923]:focus {
+input#securityCode:focus {
   background-position: calc(100% - 15px) 1em, calc(100% - 20px) 1em, calc(100% - 2.5em) 0.5em;
   background-size: 5px 5px, 5px 5px, 1px 1.5em;
   background-repeat: no-repeat;
@@ -834,7 +834,7 @@ input[type="date"]:hover::-webkit-calendar-picker-indicator:hover { opacity:0.15
 
 
 
-input#expiryDate[data-v-5d6e0923] {
+input#expiryDate{
   /* width: 9rem; */
   /* width: 159px; */
   color: #8292a2;
@@ -853,7 +853,7 @@ input#expiryDate[data-v-5d6e0923] {
   margin-left: -4.9rem;
   overflow-x: auto;
 }
-.donateButton[data-v-5d6e0923] {
+.donateButton {
   height: 4.5rem;
   position: relative;
   margin-left: -4rem;

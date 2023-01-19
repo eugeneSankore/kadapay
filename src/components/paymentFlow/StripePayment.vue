@@ -504,7 +504,7 @@ img.imageSuccessformat {
   margin-top: 0rem;
 }
 
-.textFormatAlignment[data-v-20fb6730][data-v-20fb6730] {
+.textFormatAlignment {
   color: #60C56F;
   font-family: Inter;
   font-size: 24px;
@@ -559,7 +559,7 @@ img.imageSuccessformat {
 
 @media screen and (min-width: 1399px) {
 
-  .topRightSection[data-v-20fb6730] {
+  .topRightSection {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -694,7 +694,7 @@ a.editBtn {
   margin-top: -0.7rem;
 }
 
-.stripeREcBox[data-v-4506583d] {
+.stripeREcBox {
   display: block;
   height: 20rem;
   width: 19.5rem;
@@ -731,7 +731,7 @@ a.editBtn {
   padding-top: 4rem;
 }
 
-a.nav__link.donateButton.webVersion.btnFormat[data-v-5d5f877e] {
+a.nav__link.donateButton.webVersion.btnFormat {
   cursor: grab;
   /* margin-left: -3.3rem; */
 }

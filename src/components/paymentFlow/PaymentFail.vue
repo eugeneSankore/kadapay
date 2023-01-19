@@ -359,7 +359,7 @@ img.imageSuccessformat {
   margin-top: 0.5rem;
 }
 
-.textFormatAlignment[data-v-20fb6730][data-v-20fb6730] {
+.textFormatAlignment {
   color: #5BCA0D;
   font-family: Inter;
   font-size: 24px;
@@ -415,7 +415,7 @@ successTextFormat {
   justify-content: space-around;
 }
 
-.subHeading.widthFormat[data-v-7ff64289] {
+.subHeading.widthFormat{
   width: 20rem;
   padding-bottom: 1.5rem;
   text-align: center;
@@ -423,7 +423,7 @@ successTextFormat {
 }
 
 
-.formatSuccessLay[data-v-7ff64289] {
+.formatSuccessLay{
   margin-top: 0rem;
 }
 
@@ -444,7 +444,7 @@ successTextFormat {
 
 @media screen and (min-width: 1399px) {
 
-  .topRightSection[data-v-20fb6730] {
+  .topRightSection {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -457,7 +457,7 @@ successTextFormat {
 
 
 
-    .subHeading.widthFormat[data-v-7ff64289][data-v-7ff64289] {
+    .subHeading.widthFormat {
       width: 19rem;
 
     }

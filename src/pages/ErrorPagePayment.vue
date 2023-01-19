@@ -109,7 +109,7 @@ img.errorPageImage{
 
 @media screen and (max-width: 900px) {
 
-  .errorIMageFormat[data-v-18f6bf43] {
+  .errorIMageFormat{
     width: 300px;
     height: 301px;
     margin-top: 3rem;

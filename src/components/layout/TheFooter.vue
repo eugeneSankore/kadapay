@@ -155,7 +155,7 @@ a.positionIosLogo.format_image_ios {
 
 }
 
-.infoCompany[data-v-d9ddb592] {
+.infoCompany {
   width: 26em;
   color: hsl(0deg 0% 100%);
   font-family: Inter;
@@ -392,7 +392,7 @@ display: none;
   }
 
 
-  .positionAndriodLogo[data-v-d9ddb592] {
+  .positionAndriodLogo {
     /* position: absolute; */
     cursor: pointer;
     margin-left: 2.5%;
@@ -412,7 +412,7 @@ display: none;
 
 
 
-  .positionAndriodLogo[data-v-d9ddb592][data-v-d9ddb592] {
+  .positionAndriodLogo{
     /* position: absolute; */
     cursor: pointer;
     margin-left: -5.5%;
@@ -432,7 +432,7 @@ display: none;
   /*  width: 81%;*/
   /*}*/
 
-  .divSocialMedia[data-v-d9ddb592] {
+  .divSocialMedia{
     /* padding: 1rem; */
     width: 16rem;
     display: flex;
@@ -486,11 +486,11 @@ display: none;
 
 
 
-  .theFooter[data-v-d9ddb592] {
+  .theFooter {
     /*background-color: #1abc9c;*/
   }
 
-  a.positionAndriodLogo.format_andriod_img[data-v-d9ddb592] {
+  a.positionAndriodLogo.format_andriod_img{
     cursor: pointer;
     margin-left: 1.5%;
   }
@@ -517,7 +517,7 @@ display: none;
 
 }
 
-.formatImageLogo[data-v-d9ddb592][data-v-d9ddb592] {
+.formatImageLogo {
   text-align: left;
   /* padding-top: 4rem; */
   padding-bottom: 0.7rem;
@@ -526,7 +526,7 @@ display: none;
   align-content: flex-start;
 }
 
-.positionIosLogo[data-v-d9ddb592] {
+.positionIosLogo{
   /* position: absolute; */
   margin-bottom: 0.9rem;
   cursor: pointer;

@@ -32,15 +32,12 @@ export default {
   font-size: 30px;
   font-weight: 600;
   color: #000;
-
-
   position: fixed;
   top: 0;
   left: 0;
   z-index: 9999;
 
 }
-
 
 .loadingGif {
   width: 300px;

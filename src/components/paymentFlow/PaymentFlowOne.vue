@@ -1660,7 +1660,7 @@ input#amountDonation {
   text-align: left;
 }
 
-span.span[data-v-5d6e0923] {
+span.span{
   display: flex;
   /* float: left; */
   /* width: 100%; */
@@ -1867,10 +1867,8 @@ px
 .inputEMail {
   display: flex;
   padding-left: 0.8rem;
-  padding-bottom: -0.7em;
-  left: 4rem;
-  position: initial;
-  margin-left: 0.3em;
+  position: static;
+  margin-left: 0.7em;
 }
 
 .inputEMail.emialFOrmat {
@@ -1880,7 +1878,9 @@ px
 
 
 input.paymentFormBodyCardAmountInputField.inputEMail.inputFirstName {
-  width: 9.2rem;
+
+  width: 10.25rem;
+
 }
 
 span.formatSPace {

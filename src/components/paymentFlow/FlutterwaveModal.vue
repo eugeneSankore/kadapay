@@ -407,7 +407,7 @@ export default {
 <style scoped>
 
 
-img.submitIconFormat[data-v-4506583d] {
+img.submitIconFormat{
   width: 19.5rem;
   height: 3.4rem;
 }
@@ -416,7 +416,7 @@ img.submitIconFormat[data-v-4506583d] {
 @media screen and (max-width: 375px) {
 
 
-  img.submitIconFormat[data-v-4506583d] {
+  img.submitIconFormat{
     width: 14.5rem;
     height: 2.4rem;
   }
@@ -438,18 +438,18 @@ a.button {
 
 @media screen and (max-width: 900px) {
 
-  a.button[data-v-26c494ba] {
+  a.button{
     display: flex;
     padding-left: 4.3rem;
     padding-top: 0rem;
   }
 
-  img.submitIconFormat[data-v-4506583d] {
+  img.submitIconFormat {
     width: 20.5rem;
     height: 3.4rem;
   }
 
-  img.submitIconFormat[data-v-26c494ba] {
+  img.submitIconFormat {
     width: 20.5rem;
     height: 3.4rem;
   }

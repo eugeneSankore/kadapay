@@ -288,7 +288,7 @@ span.left {
 }
 
 
-.container[data-v-32679b52][data-v-32679b52] {
+.container {
   width: 400px;
   max-width: 600px;
   margin: 0 auto;
@@ -655,7 +655,7 @@ span.formatLogoSchoolNameSection {
 
 @media  screen and (max-width: 350px) {
 
-  .smallWidthContainer[data-v-5cc1e262] {
+  .smallWidthContainer {
     width: 18rem;
     /*background-color: #0070FF;*/
   }
@@ -664,7 +664,7 @@ span.formatLogoSchoolNameSection {
     margin-left: -1.7rem;
   }
 
-  .causeDetails[data-v-5cc1e262] {
+  .causeDetails {
     padding-top: 0.6rem;
     position: relative;
     margin-left: -1.6rem;
@@ -676,7 +676,7 @@ span.formatLogoSchoolNameSection {
     width: 16.3rem;
   }
 
-  span.contributedAmount[data-v-5cc1e262] {
+  span.contributedAmount {
     color: hsl(0deg 0% 0%);
     font-family: Inter;
     font-size: 12px;
@@ -686,18 +686,18 @@ span.formatLogoSchoolNameSection {
     margin-left: 0.1rem;
   }
 
-  span.formatDownGUage[data-v-5cc1e262] {
+  span.formatDownGUage {
     width: 100%;
     /* text-align: left; */
     margin-left: -5.6em;
   }
 
-  .np-progress-container[data-v-5cc1e262] {
+  .np-progress-container{
     width: 253px;
     margin-left: -1.6rem;
   }
 
-  .causeContentTitleFormat[data-v-5cc1e262] {
+  .causeContentTitleFormat {
     /* font-weight: 500; */
     width: 18rem;
 

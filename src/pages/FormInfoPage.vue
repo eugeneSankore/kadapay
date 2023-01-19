@@ -99,13 +99,13 @@ export default {
 }
 
 
-.container[data-v-32679b52] {
+.container {
   width: 400px;
   max-width: 600px;
   margin: 0 auto 0 -1.4rem;
 }
 
-.container .schoolDetails[data-v-32679b52] {
+.container .schoolDetails {
   display: flex;
   padding-top: 1rem;
   height: 5rem;
@@ -342,7 +342,7 @@ span.formatDayText {
 
 
 
-.CauseMainDescription[data-v-dc166936] {
+.CauseMainDescription {
   color: hsl(213deg 81% 8%);
   font-family: "SF Pro Text";
   font-size: 11px;
@@ -399,7 +399,7 @@ max-width: 31rem;
     /*background-color: #0070FF;*/
   }
 
-  .CauseMainDescription[data-v-dc166936][data-v-dc166936] {
+  .CauseMainDescription {
 
     width: 100%;
     position: relative;
@@ -407,14 +407,14 @@ max-width: 31rem;
 
   }
 
-  .formatNameOfDOnors[data-v-dc166936] {
+  .formatNameOfDOnors {
     width: 100%;
     position: relative;
     margin-left: -1.5rem;
   }
 
 
-  .formatDonorImage[data-v-dc166936] {
+  .formatDonorImage{
     height: 1%;
     padding-top: 0.6rem;
     margin-left: -0.9rem;

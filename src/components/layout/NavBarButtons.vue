@@ -139,7 +139,7 @@ export default {
 
 <style scoped>
 
-.nav[data-v-5eb0a53c][data-v-5eb0a53c] {
+.nav {
 
   position: fixed;
   bottom: 0;
@@ -263,7 +263,7 @@ a.iosButton{
 
 
 @media  screen and (min-width: 899px) {
-  .nav[data-v-5eb0a53c][data-v-5eb0a53c] {
+  .nav {
     display: none;
   }
 }

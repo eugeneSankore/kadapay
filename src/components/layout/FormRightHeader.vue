@@ -57,7 +57,7 @@ export default {
 }
 @media screen and (min-width: 1399px) {
 
-  .headerFormatForm[data-v-7f294970] {
+  .headerFormatForm {
     border-bottom: 1.5px solid #E5E5E5;
     width: 92.3%;
     height: 5.5rem;

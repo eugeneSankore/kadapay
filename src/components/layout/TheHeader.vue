@@ -135,7 +135,7 @@ header {
     display: flex;
   }
 
-  .mobileHeader[data-v-9778edae] {
+  .mobileHeader{
     color: hsl(0deg 59% 17%);
     text-align: center;
     font-size: 20px;
@@ -149,7 +149,7 @@ header {
     width: auto;
   }
 
-  .mobileHeaderText[data-v-9778edae] {
+  .mobileHeaderText {
     padding-right: 7rem;
     opacity: 0.37;
     color: hsl(213deg 93% 6%);
@@ -204,7 +204,7 @@ header {
 @media  screen and  (max-width: 899px) {
 
 
-  .mobileHeader[data-v-9778edae] {
+  .mobileHeader {
     color: #461212;
     text-align: center;
     font-size: 20px;
@@ -267,6 +267,12 @@ header {
     top: 0px;
     position: fixed;
     width: 100%;
+  }
+
+  header.mobileHeader.topHeader___formatings {
+    height: min-content;
+    top: 0px;
+    position: fixed;
   }
 
 }

@@ -506,7 +506,7 @@ span.formatDayText {
 
 @media screen and (max-width: 350px) {
 
-  .formatCausePicture[data-v-32679b52] {
+  .formatCausePicture{
     width: 18rem;
 
   }
@@ -523,7 +523,7 @@ span.formatDayText {
     background-color: #ff0000;
   }
 
-  .pageFormat[data-v-32679b52] {
+  .pageFormat{
     /* width: 100%; */
     height: 46rem;
     background-color: #e8eaed;
@@ -714,7 +714,7 @@ span.formatDayText {
 }
 
 @media screen and (min-width: 1399px) {
-  .ref[data-v-32679b52] {
+  .ref {
     display: inline-block;
     /* border: 8px solid black; */
     width: 69rem;
@@ -725,7 +725,7 @@ span.formatDayText {
     box-shadow: 0px 0 10px 1px rgb(0 0 0 / 3%);
   }
 
-  #first[data-v-32679b52] {
+  #first {
     width: 35.6%;
     height: 100%;
     /* background-color: #e53535; */
@@ -735,7 +735,7 @@ span.formatDayText {
     box-shadow: 3px 0px 20px 0px rgb(4 9 8 / 5%);
     z-index: 1;
   }
-  #second[data-v-32679b52] {
+  #second {
     width: 64.4%;
     height: 100%;
     /* background-color: #d13e3e; */
@@ -745,7 +745,7 @@ span.formatDayText {
     border-radius: 0px 10px 10px 0;
   }
 
-  .headerFormatForm[data-v-7f294970] {
+  .headerFormatForm {
     border-bottom: 1.5px solid #E5E5E5;
     /*width: 87%;*/
     height: 5.5rem;

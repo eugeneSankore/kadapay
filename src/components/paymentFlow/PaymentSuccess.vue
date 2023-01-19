@@ -400,7 +400,7 @@ img.imageSuccessformat {
   margin-top: 0rem;
 }
 
-.textFormatAlignment[data-v-20fb6730][data-v-20fb6730] {
+.textFormatAlignment{
   color: #60C56F;
   font-family: Inter;
   font-size: 24px;
@@ -449,7 +449,7 @@ img.imageSuccessformat {
 
 @media screen and (min-width: 1399px) {
 
-  .topRightSection[data-v-20fb6730] {
+  .topRightSection{
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -477,7 +477,7 @@ img.imageSuccessformat {
     padding-top: 5rem;
   }
 
-  .formatTopView[data-v-20fb6730] {
+  .formatTopView {
     display: flex;
     justify-content: space-around;
   }
@@ -490,7 +490,7 @@ img.imageSuccessformat {
     display: none;
   }
 
-  .formatTopView[data-v-20fb6730][data-v-20fb6730] {
+  .formatTopView {
     display: flex;
     justify-content: space-around;
     padding-left: 4.1rem;
@@ -502,7 +502,7 @@ img.imageSuccessformat {
     align-items: center;
   }
 
-  .formatTopView[data-v-20fb6730][data-v-20fb6730][data-v-20fb6730] {
+  .formatTopView{
     display: flex;
     /* padding-left: 4.1rem; */
     align-items: flex-start;
@@ -511,7 +511,7 @@ img.imageSuccessformat {
     justify-content: flex-start;
   }
 
-  .topRightSection[data-v-20fb6730] {
+  .topRightSection{
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -519,7 +519,7 @@ img.imageSuccessformat {
     padding-right: 1rem;
   }
 
-  img.imageSuccessformat[data-v-20fb6730] {
+  img.imageSuccessformat{
     height: 11rem;
     width: 11rem;
   }

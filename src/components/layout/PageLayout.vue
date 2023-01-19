@@ -26,7 +26,7 @@ export default {
 
 @media  screen and (max-width: 350px) {
 
-  .smallWidthContainer[data-v-5cc1e262] {
+  .smallWidthContainer {
     width: 18rem;
     /*background-color: #0070FF;*/
   }
