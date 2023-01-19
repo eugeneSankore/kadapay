@@ -192,24 +192,7 @@ header {
 @media  screen and  (max-width: 899px) {
 
 
-  .mobileHeader[data-v-9778edae] {
-    color: #461212;
-    text-align: center;
-    font-size: 20px;
-    z-index: 20;
-    padding-bottom: 0rem;    background-color: #F7fbff;
-    /* position: relative; */
-    position: sticky;
-    top: 0px;
-    /* position: fixed; */
-    height: 2.5rem;
-    display: flex;
-    justify-content: space-around;
-    align-content: flex-start;
-    position: absolute;
-    margin: 0;
 
-  }
 
 
 
@@ -256,6 +239,27 @@ header {
     position: fixed;
     width: 100%;
   }
+
+  .mobileHeader {
+
+    color: #461212  !important;
+    text-align: center  !important;
+    font-size: 20px  !important;
+    z-index: 20  !important;
+    padding-bottom: 0  !important;
+    background-color: #F7fbff  !important;
+    top: 0  !important;
+    /* position: fixed;  */
+    height: 2.5rem  !important;
+    display: flex  !important;
+    justify-content: space-around  !important;
+    align-content: flex-start  !important;
+    position: absolute  !important;
+    margin: 0  !important;
+
+  }
+
+
 
 }
 
