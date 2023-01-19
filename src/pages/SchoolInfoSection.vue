@@ -558,8 +558,7 @@ background-color: #60C56F;
   /*overflow: hidden;*/
 }
 
-.centerIMage[data-v-5cc1e262] {
-  /* margin-left: 2.7rem; */
+.centerIMage{
   padding-top: 0.5rem;
 }
 
