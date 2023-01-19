@@ -1,7 +1,7 @@
 <template>
   <div class="smallWidthContainer">
 
-    <div class="CauseMainDescription">
+    <div class="CauseMainDescription for___largescreeen">
       {{ causeDetailInfo.description }}
     </div>
     <div class="formatNameOfDOnors">
@@ -434,5 +434,17 @@ max-width: 31rem;
 
 }
 
-
+.CauseMainDescription.for___largescreeen {
+  color: hsl(213deg 81% 8%);
+  font-family: "SF Pro Text";
+  font-size: 11px;
+  letter-spacing: 0;
+  padding-top: 1.4rem;
+  /* line-height: 15px; */
+  width: 20.5rem;
+  /* max-width: 35rem; */
+  /* margin-left: 2.6rem; */
+  text-align: left;
+  padding-left: 1.6rem;
+}
 </style>

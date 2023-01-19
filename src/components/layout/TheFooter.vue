@@ -1,5 +1,5 @@
 <template>
-<div class="theFooter">
+<div class="theFooter largescale__footerFormat">
 
 <!--  <div class="row footer-container">-->
     <div class="column col1">
@@ -311,7 +311,7 @@ display: none;
      */
   }
 
-  .theFooter[data-v-d9ddb592] {
+ .theFooter.largescale__footerFormat {
     position: relative;
     bottom: 0;
     width: auto;
