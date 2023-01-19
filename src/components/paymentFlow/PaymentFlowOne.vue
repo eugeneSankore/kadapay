@@ -1268,12 +1268,12 @@ select#currency {
   font-weight: 500;
 }
 
-p.validationAlert.topFormFOrmat[data-v-4506583d] {
+p.validationAlert.topFormFOrmat {
   /*position: absolute;*/
   top: 7.5em;
 }
 
-p.validationAlert.topFormFOrmat.leftFormat[data-v-4506583d] {
+p.validationAlert.topFormFOrmat.leftFormat{
   left: 9.96rem;
   position: absolute;
   width: 9rem;
@@ -1579,7 +1579,7 @@ span.paymentFormBodyCardAmount {
     /*background-color: #0070FF;*/
   }
 
-  .paymentFormBodyHeader.asterix[data-v-4506583d][data-v-4506583d] {
+  .paymentFormBodyHeader.asterix {
     /*!* color: hsl(0deg 0% 0%); *!*/
     /*!* font-family: "SF Pro Text"; *!*/
     /*!* font-size: 14px; *!*/
@@ -1599,14 +1599,14 @@ span.paymentFormBodyCardAmount {
     padding-left: 0em;
   }
 
-  span.paymentFormBodyCardAmount[data-v-4506583d][data-v-4506583d][data-v-4506583d] {
+  span.paymentFormBodyCardAmount {
     position: relative;
     /* margin-left: 1.4rem; */
     width: 100%;
     padding-left: 0rem;
   }
 
-  input#amountDonation[data-v-4506583d][data-v-4506583d][data-v-4506583d] {
+  input#amountDonation{
     width: 14.9rem;
     position: absolute;
     margin-left: 0.3rem;
@@ -1616,7 +1616,7 @@ span.paymentFormBodyCardAmount {
     font-family: "SF Pro Text";
   }
 
-  .validationAlert[data-v-4506583d] {
+  .validationAlert {
     color: hsl(0deg 100% 50%);
     font-size: 12px;
     margin-top: 5.1px;
@@ -1650,7 +1650,7 @@ input.invalid.paymentFormBodyCardAmountInputField.inputEMail.placeholder {
   border: 1px solid red;
 }
 
-input#amountDonation[data-v-4506583d] {
+input#amountDonation {
   width: 17.7rem;
   position: absolute;
   margin-left: 0.3rem;
@@ -1706,7 +1706,7 @@ input::-webkit-inner-spin-button {
   /*  width: 100%;*/
   /*  padding-left: 0rem;*/
   /*}*/
-  input#amountDonation[data-v-4506583d][data-v-4506583d] {
+  input#amountDonation {
     width: 18rem;
     position: absolute;
     margin-left: 0.3rem;
@@ -1714,7 +1714,7 @@ input::-webkit-inner-spin-button {
     height: 3rem;
   }
 
-  img.submitIconFormat[data-v-4506583d] {
+  img.submitIconFormat {
     width: 14.5rem;
     height: 2.4rem;
   }
@@ -1730,7 +1730,7 @@ input::-webkit-inner-spin-button {
   header.mobileHeader {
     display: none;
   }
-  .nav[data-v-4506583d] {
+  .nav{
 
     display: none;
 
@@ -1740,7 +1740,7 @@ input::-webkit-inner-spin-button {
     display: block;
   }
 
-  input#amountDonation[data-v-4506583d][data-v-4506583d] {
+  input#amountDonation {
     width: 14.7rem;
     position: absolute;
     margin-left: 0.3rem;
@@ -1750,7 +1750,7 @@ input::-webkit-inner-spin-button {
     text-align: left;
   }
 
-  .donateButton[data-v-4506583d] {
+  .donateButton {
     /* height: 4.5rem; */
     position: relative;
 
@@ -1759,12 +1759,12 @@ input::-webkit-inner-spin-button {
     cursor: pointer;
   }
 
-  img.submitIconFormat[data-v-4506583d] {
+  img.submitIconFormat {
     width: 19.5rem;
     height: 3.4rem;
   }
 
-  input#amountDonation[data-v-4506583d][data-v-4506583d][data-v-4506583d] {
+  input#amountDonation {
     width: 16.1rem;
     position: absolute;
     margin-left: 0.3rem;
@@ -1784,15 +1784,15 @@ input::-webkit-inner-spin-button {
 
 
 
-  input.paymentFormBodyCardAmountInputField.inputEMail.inputFirstName[data-v-4506583d] {
+  input.paymentFormBodyCardAmountInputField.inputEMail.inputFirstName {
     width: 10.15rem;
   }
 
-  input.paymentFormBodyCardAmountInputField[data-v-4506583d] {
+  input.paymentFormBodyCardAmountInputField {
     width: 21.1rem;
   }
 
-  p.validationAlert.topFormFOrmat.leftFormat[data-v-4506583d][data-v-4506583d][data-v-4506583d] {
+  p.validationAlert.topFormFOrmat.leftFormat{
     left: 10.5rem;
   }
 
@@ -1864,7 +1864,7 @@ px
 }
 
 
-.inputEMail[data-v-4506583d] {
+.inputEMail {
   display: flex;
   padding-left: 0.8rem;
   padding-bottom: -0.7em;
@@ -1928,7 +1928,7 @@ input#alightText::placeholder {
 }
 
 
-p.validationAlert.topFormFOrmat.leftFormat[data-v-4506583d][data-v-4506583d] {
+p.validationAlert.topFormFOrmat.leftFormat{
   left: 9.8rem;
   position: absolute;
   width: 9rem;
@@ -1966,11 +1966,11 @@ p.validationAlert.topFormFOrmat.sideleftFormat {
 
 }
 
-  .donateButton[data-v-4506583d] {
+  .donateButton {
     display: none;
   }
 
-  select#currency[data-v-4506583d] {
+  select#currency {
     color: black;
     /* font-size: larger; */
 
@@ -2074,7 +2074,7 @@ a.editBtn {
   margin-top: -0.7rem;
 }
 
-.stripeREcBox[data-v-4506583d] {
+.stripeREcBox {
   display: block;
   height: 20rem;
   width: 19.5rem;
@@ -2093,13 +2093,6 @@ a.editBtn {
 }
 
 
-/*p.validationAlert.topFormFOrmat.sideleftFormat.newFormat {*/
-/*  padding-top: 0.5rem;*/
-/*}*/
-
-/*p.validationAlert.topFormFOrmat.leftFormat.newFormat {*/
-/*  padding-top: 0.5rem;*/
-/*}*/
 
 
 
