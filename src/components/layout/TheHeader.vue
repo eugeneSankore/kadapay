@@ -149,24 +149,7 @@ header {
     width: auto;
   }
 
-  .mobileHeaderText[data-v-9778edae] {
-    padding-right: 7rem;
-    opacity: 0.37;
-    color: hsl(213deg 93% 6%);
-    font-family: "SF Pro Text";
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0;
-    line-height: 13px;
-    position: absolute;
-    /* bottom: 2px; */
-    /* bottom: 2px; */
-    right: 4px;
-    margin-left: 1rem;
-    margin-top: 1.34rem;
-    position: absolute;
-    top: 0.2em;
-  }
+
 
   .mobileHeader .kadaLogoHomePage {
     Width: 10%;
@@ -190,12 +173,6 @@ header {
 }
 
 @media  screen and  (max-width: 899px) {
-
-
-
-
-
-
 
   .mobileHeaderError.logoAdded {
  visibility: hidden;
@@ -304,10 +281,24 @@ img.appLOgo {
 
 }
 
-.mobileHeaderError{
-
+.mobileHeaderText[data-v-9778edae] {
+  padding-right: 7rem;
+  opacity: 0.37;
+  color: hsl(213deg 93% 6%);
+  font-family: "SF Pro Text";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 13px;
+  position: absolute;
+  /* bottom: 2px; */
+  /* bottom: 2px; */
+  right: 4px;
+  margin-left: 1rem;
+  margin-top: 1.34rem;
+  position: absolute;
+  top: 0.2em;
 }
-
 
 
 
