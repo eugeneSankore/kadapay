@@ -1,4 +1,4 @@
-var MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
     // other options...
@@ -6,7 +6,7 @@ module.exports = {
         rules: [
             // ... other rules omitted
             {
-                test: /\.css$/,
+                test: /\.vue$/,
                 use: [
                     process.env.NODE_ENV !== 'production'
                         ? 'vue-style-loader'
