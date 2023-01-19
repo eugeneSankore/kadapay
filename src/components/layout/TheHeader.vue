@@ -1,5 +1,5 @@
 <template>
- <header class="mobileHeader">
+ <header class="mobileHeader topHeader___formatings">
   <div class="logo">
     <img class="kadaLogoHomePage" :src="kadaLogo" alt="logo">
     </div>
@@ -184,7 +184,19 @@ header {
     /* position: absolute; */
   }
 
-
+  header.mobileHeader.topHeader___formatings {
+    color: hsl(0deg 59% 17%);
+    text-align: center;
+    font-size: 20px;
+    z-index: 20;
+    padding-bottom: 3rem;
+    padding-top: 1.5rem;
+    background-color: hsl(212deg 100% 97%);
+    /* position: relative; */
+    top: 0px;
+    position: relative;
+    width: auto;
+  }
 
 
 }
