@@ -70,7 +70,7 @@
       </a>
       <a class="positionAndriodLogo format_andriod_img" target="_blank" href="https://play.google.com/store/apps/details?id=ng.wealthtech.kada">
         <!--        <img src="./src/assets/lotticeApple.gif" alt="w">-->
-        <img  class="imageLogoAndroid" :src=playStoreLogo alt="">
+        <img  class="imageLogoAndroid resizer_logo_andriod" :src=playStoreLogo alt="">
       </a>
       
     </div>
@@ -403,7 +403,7 @@ display: none;
     width: 131px;
   }
 
-  .imageLogoAndroid[data-v-d9ddb592] {
+  img.imageLogoAndroid.resizer_logo_andriod {
     height: 47px;
     width: 131px;
   }
