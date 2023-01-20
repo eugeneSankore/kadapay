@@ -11,7 +11,7 @@
 
       <div class="formatStripe showStripe" v-show="!this.showStripePayment">
 
-        <div class="stripeREcBox">
+        <div class="stripeREcBox formatterDuplicate">
 
           <div class="stripeREcBoxHeader">
 
@@ -667,7 +667,7 @@ a.editBtn {
 }
 
 .formatButtonStripe {
-  padding-left: 3rem;
+  padding-left: 1rem;
   padding-top: 1.2rem;
   display: flex;
   flex-direction: column;
@@ -735,8 +735,19 @@ a.nav__link.donateButton.webVersion.btnFormat {
    margin-left: -1.1rem;
 }
 
+.stripeREcBox.formatterDuplicate {
+  padding-left: 1.6rem;
+}
+
 
 @media screen and (max-width: 900px) {
+
+  .formatStripe[data-v-5d5f877e] {
+    margin-left: -2.6rem;
+
+  }
+
+
 
   .stripeREcBox{
     height: 25rem;
