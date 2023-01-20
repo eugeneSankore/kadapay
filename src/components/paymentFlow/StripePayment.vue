@@ -695,8 +695,7 @@ a.editBtn {
 }
 
 .stripeREcBox {
-  display: block;
-  height: 20rem;
+  height: 22rem;
   width: 19.5rem;
   display: flex;
   flex-direction: column;
@@ -733,7 +732,7 @@ a.editBtn {
 
 a.nav__link.donateButton.webVersion.btnFormat {
   cursor: grab;
-  /* margin-left: -3.3rem; */
+   margin-left: -1.1rem;
 }
 
 

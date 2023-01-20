@@ -58,7 +58,9 @@ export default {
       if (this.screenWidth > 899) {
         console.log("higer ");
 
-        return this.$router.push({path : '/causecontribution/' + this.$store.getters.causeId });
+        this.$router.go(-1);
+
+        // return this.$router.push({path : '/causecontribution/' + this.$store.getters.causeId });
 
         }else{
         console.log("lower ");

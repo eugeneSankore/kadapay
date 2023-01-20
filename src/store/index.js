@@ -34,6 +34,10 @@ export default new Vuex.Store({
               minAmountValidation: state.minAmountValidation,
               showStripePayment: state.showStripePayment,
               anonymousDonation: state.anonymousDonation,
+                deviceId: state.deviceId,
+                deviceName: state.deviceName,
+                deviceOsVersion:    state.deviceOsVersion,
+                deviceOs: state.deviceOs,
 
 
 

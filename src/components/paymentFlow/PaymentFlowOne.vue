@@ -43,7 +43,7 @@
 
             <input
                 :class="{invalid: !firstNameValid}"
-                id="alightText"
+                id="alightText inpu_t"
                 name="payCardDigit"
                 class=" paymentFormBodyCardAmountInputField inputEMail inputFirstName placeholder "
                 v-model.trim="firstName"
@@ -57,8 +57,7 @@
                   class=" paymentFormBodyCardAmountInputField inputEMail inputFirstName secondName placeholder "
                   v-model.trim="lastName"
                   placeholder="Surname"
-                  id="alightText"
-
+                  id="alightText inpu_t"
 
               />
                  </span>
@@ -1755,12 +1754,12 @@ input::-webkit-inner-spin-button {
     position: relative;
 
     margin-left: -2.1rem;
-    padding-top: 0.2rem;
+    padding-top: 1.4rem;
     cursor: pointer;
   }
 
   img.submitIconFormat {
-    width: 19.5rem;
+    width: 19.3rem;
     height: 3.4rem;
   }
 
@@ -1785,7 +1784,7 @@ input::-webkit-inner-spin-button {
 
 
   input.paymentFormBodyCardAmountInputField.inputEMail.inputFirstName {
-    width: 10.15rem;
+    width: 10.3rem;
   }
 
   input.paymentFormBodyCardAmountInputField {
@@ -1842,6 +1841,10 @@ input::-webkit-inner-spin-button {
     justify-content: center;
   }
 
+  input#alightText\ inpu_t {
+    width: 10.3em;
+  }
+
 }
 
 
@@ -1878,8 +1881,7 @@ px
 
 
 input.paymentFormBodyCardAmountInputField.inputEMail.inputFirstName {
-
-  width: 10.25rem;
+  width: 9.3rem;
 
 }
 
@@ -2092,7 +2094,13 @@ a.editBtn {
 
 }
 
+@media screen and (min-width: 900px) {
 
+  input.paymentFormBodyCardAmountInputField.inputEMail.inputFirstName{
+    width: 9.3rem;
+  }
+
+}
 
 
 

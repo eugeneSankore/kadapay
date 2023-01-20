@@ -107,7 +107,7 @@ export default {
 
 .container .schoolDetails {
   display: flex;
-  padding-top: 1rem;
+  padding-top: 2rem;
   height: 5rem;
   margin-left: 2.5rem;
 }

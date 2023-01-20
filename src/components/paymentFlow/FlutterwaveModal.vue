@@ -256,6 +256,7 @@ export default {
               console.log("$$$$$$$$   ", JSON.stringify(this.paymentResponse))
 
               console.log(response)
+              // alert("Payment Successful")
 
               // send the response to the server
 
@@ -263,18 +264,23 @@ export default {
 
                 /// send axios request to the server
                 axios.post("https://kada.identity.stage.wealthtech.ng/transaction/donation/public/collection/verification", {
-                  "deviceId":  this.$store.getters.deviceId,
-                  "deviceName": this.$store.getters.deviceName,
-                  "deviceOS": this.$store.getters.deviceOs,
-                  "osVersion": this.$store.getters.deviceOsVersion,
+                  // "deviceId":  this.$store.state.deviceId,
+                  // "deviceName": this.$store.state.deviceName,
+                  // "deviceOS": this.$store.state.deviceOs,
+                  // "osVersion": this.$store.state.deviceOsVersion,
+                  "deviceId": "String",
+                  "deviceName":  "String",
+                  "deviceOS":  "String",
+                  "osVersion":  "String",
                   "paymentId": response.transaction_id,
 
                   "paymentReference": response.tx_ref,
                   "paymentChannel": "Flutterwave",
                 })
                   .then(response => {
+                    console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
                     console.log("%c axios response ", response.data.responseMessage, "%c color: #00ff00 ; font-size: 200px")
-                    1
+                    // alert("Payment Successful" + response.data.responseMessage)
                     if (response.data.responseMessage === "Payment Completed!") {
 
                       window.location.href = '/paymentsuccess'
@@ -290,14 +296,16 @@ export default {
 
                   })
                   .catch(error => {
+                    // alert("catch Error: " + error)
                     // window.location.href = '/causecontribution/paymentfailure'
                     window.location.href = '/causecontribution/:id/paymentrestart'
-                    console.log("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+                    // console.log("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
 
                     console.log(error);
                   });
 
               } catch (e) {
+                // alert("catch" + e)
 
                 console.log(e + "Catch $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
                 // window.location.href = window.location.hostname + "/causecontribution/:id/paymentrestart"

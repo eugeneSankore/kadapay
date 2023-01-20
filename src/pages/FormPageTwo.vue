@@ -37,7 +37,7 @@ export default {
 
       if (this.screenWidth > 898) {
 
-        this.$router.go(-1);
+     return    this.$router.push({path : '/causecontribution/' + this.$store.getters.causeId });
 
         // return  this.$router.push('/');      //<---  need this method
       }else{
