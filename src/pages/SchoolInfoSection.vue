@@ -560,6 +560,9 @@ background-color: #60C56F;
 
 .centerIMage{
   padding-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .formatCausePicture {

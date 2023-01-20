@@ -242,8 +242,13 @@ export default {
 
 <style scoped>
 
-.subHeading {
 
+
+.formatBtn{
+  display: none;
+}
+
+.subHeading {
   opacity: 0.5;
   color: #010D1C;
   font-family: Inter;
@@ -288,11 +293,12 @@ export default {
 }
 
 
-.formatTopView {
+.formatTopView{
   display: flex;
   justify-content: space-between;
+  width: 25em;
+  padding-right: 2.2rem;
 }
-
 
 .topRightSection {
   display: flex;
@@ -439,10 +445,22 @@ successTextFormat {
 }
 
 
+@media screen and (min-width: 900px) {
 
+  .formatBtn{
+    display: block;
+  }
+}
 
 
 @media screen and (min-width: 1399px) {
+
+  .formatTopView{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 0.2rem;
+  }
 
   .topRightSection {
     display: flex;

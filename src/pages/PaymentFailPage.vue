@@ -16,7 +16,7 @@
 
               <schoolInfoSection v-if="!showErrorPage" >
                 <template v-slot:schoolInfoCauseIMage>
-                  <img class="formatCausePicture" :src="causeImage">
+                  <img class="formatCausePicture"  id="forPic"  :src="causeImage">
                 </template>
               </schoolInfoSection>
               <form-info-page  v-if="!showErrorPage"></form-info-page>
@@ -76,24 +76,23 @@
 
 
               <template v-slot:header>
-<!--                {{ causeContributions }}-->
-              </template>
-
-              <template v-slot:subHeader>
-                Join to fulfill this cause </template>
-
-            </FormRightHeader>
-
-            <FormRightHeader>
-
-
-              <template v-slot:header>
                 Payment UnSuccessful      </template>
 
               <template v-slot:subHeader>
-                Your contribution to this cause was unsuccessful {{this.$store.state.causeId}}     </template>
+                Your contribution to this cause was unsuccessful     </template>
 
             </FormRightHeader>
+
+<!--            <FormRightHeader>-->
+
+
+<!--              <template v-slot:header>-->
+<!--                Payment UnSuccessful      </template>-->
+
+<!--              <template v-slot:subHeader>-->
+<!--                Your contribution to this cause was unsuccessful {{this.$store.state.causeId}}     </template>-->
+
+<!--            </FormRightHeader>-->
             <PaymentFail></PaymentFail>
 
 
@@ -107,7 +106,19 @@
       <!--    </div>-->
     </div>
     <the-footer></the-footer>
-    </div>
+
+    <nav class="nav">
+      <a class="nav__link donateButton mobileVersion"  @click="restartPayment">
+      <img :src="imagRestart" class="submitIconFormatMobile" alt=" ">
+      </a>
+    </nav>
+
+
+
+  </div>
+
+
+
 </template>
 
 <script>
@@ -152,6 +163,7 @@ export default {
       loading: false,
       sudoExample: null,
       // showErrorPage : false,
+      imagRestart: require("@/assets/rretry.svg"),
     };
   },
   computed: {
@@ -178,6 +190,32 @@ export default {
   },
 
   methods: {
+
+    restartPayment() {
+
+
+
+
+      // set set_first_name to null
+      this.$store.commit("SET_FIRST_NAME", null);
+
+      // set set_last_name to null
+      this.$store.commit("SET_LAST_NAME", null);
+
+      // set set_email to null
+      this.$store.commit("SET_EMAIL", null);
+
+      // set set_phone to null
+      this.$store.commit("SET_AMOUNT", null);
+
+
+      // go back to last page
+
+      this.$router.go(-1)
+
+
+
+    },
 
     // causeInfoApiCall() {
     //
@@ -263,13 +301,62 @@ export default {
 <style scoped>
 
 
+.nav{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 71px;
+  box-shadow: 0 0 3px rgb(0 0 0 / 20%);
+  background-color: #ffffff;
+  display: flex;
+  margin-left: -0.9rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  z-index: 100;
+  padding: 0 0.9rem;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%,-50%); */
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+div#dibottom {
+  display: none;
+}
+.formatCompletePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .webView{
+  display: block;
+  padding-top: 5rem;
+}
+
+.formatCausePicture{
   display: none;
 }
 
-.formatStatsView {
-  margin-top: 0.5rem;
+.formFOrmat{
+  display : none;
 }
+
 
 
 .loading {
@@ -568,6 +655,7 @@ span.formatDayText {
 }
 
 
+
 @media screen and (max-width: 350px) {
 
   .formatCausePicture {
@@ -578,6 +666,45 @@ span.formatDayText {
 }
 
 @media screen and (min-width: 899px) {
+
+  .nav{
+    display: none;
+  }
+
+  .formatCausePicture{
+    padding-top: -0rem;
+  }
+
+
+  .formatCausePicture{
+    display: block;
+  }
+
+  .centerIMage {
+    margin-left: 2.7rem;
+    width: 18.21rem;
+    max-width: 22rem;
+    display: block;
+  }
+
+  /*.centerIMage {*/
+  /*  padding-top: 9rem;*/
+
+  /*}schoolDetails*/
+
+
+
+  .formatTopView{
+    display: flex;
+    width: 100%;
+    padding-right: 0.2rem;
+    justify-content: space-between;
+  }
+
+  div#dibottom {
+    display: block ;
+  }
+
   .formFOrmat {
     display: none;
   }
@@ -766,8 +893,13 @@ span.formatDayText {
 
 }
 
+
+
 @media screen and (min-width: 1399px) {
-  .ref[data-v-32679b52] {
+
+
+
+  .ref{
     display: inline-block;
     /* border: 8px solid black; */
     width: 69rem;
@@ -848,6 +980,13 @@ span.formatDayText {
     padding-left: 3.4rem;
     align-items: self-start;
     flex-direction: column;
+  }
+
+
+  .formatTopView {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
   }
 
 
