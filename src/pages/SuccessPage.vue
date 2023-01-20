@@ -109,7 +109,7 @@ export default {
    },
   data() {
     return {
-      causeImage: causeImage,
+      causeImg: causeImage,
       causeData : null,
       idCause: null,
       loading: false,
@@ -118,6 +118,18 @@ export default {
     };
   },
   computed: {
+
+    causeImage() {
+
+      const val = this.$store.state.causeXData
+
+      if (val.responseContent.avatar === null || val.responseContent.avatar === undefined
+          || val.responseContent.avatar === "") {
+        return this.causeImg
+      }
+
+      return val.responseContent.avatar
+    },
     amountEditPage: {
 
       get() {
